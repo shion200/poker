@@ -12,5 +12,5 @@ else:
         user = input()
         if user[-1] == "ん" or ''.join(word)[-1] != user[0]:
             break
-    print(user[-1] + ''.join(word))  
+        print(user[-1] + ''.join(word))  
     print("ゲームオーバー")
